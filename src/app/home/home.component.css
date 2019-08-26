@@ -46,7 +46,7 @@ img {
 
 svg.shape {
     margin: 20px auto;
-    width:60%;
+    width:70%;
     height: auto;
   }
   
@@ -55,10 +55,10 @@ svg.shape {
   }
 
   .slider {
-      width: 30%;
+      width: 35%;
       position: absolute;
       top: 30%;
-      left: 15%;
+      left: 20%;
   }
   
   @keyframes shape {
