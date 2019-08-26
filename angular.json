@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/khuri-website",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,9 +24,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/reset-css/reset.css",
+              "src/styles.css",
+              "./node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
+              "./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
+              "./node_modules/sal.js/dist/sal.css"
             ],
-            "scripts": []
+            "scripts": [
+               "./node_modules/jquery/dist/jquery.min.js",
+               "./node_modules/bootstrap/dist/js/bootstrap.js",
+               "./node_modules/owl.carousel/dist/owl.carousel.min.js",
+               "./node_modules/sal.js/dist/sal.js"
+            ]
           },
           "configurations": {
             "production": {

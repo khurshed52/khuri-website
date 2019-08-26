@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.4em;
+}
+
+.owl-carousel {
+    direction: ltr
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: block !important;
+  margin-bottom: 0.5em;
+  width: 32px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  position: absolute;
+  top: 50%;
+  right: -13%;
+}
+button.owl-dot.active {
+  border: 1px solid #fff !important;
+  border-radius: 13px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #337985 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  margin: 5px 10px !important; 
+}
+
+.owl-dots {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+.owl-carousel .owl-item img {
+  width: 88% !important;
+}

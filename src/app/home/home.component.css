@@ -1,0 +1,82 @@
+.home-bg {
+    position: relative;
+    min-height: 40vw;
+    padding-top: 3vw;
+    background: url('../../assets/images/home-bg.svg') no-repeat right top #fffffe;
+    background-size: contain;
+    padding-top: 20px;
+}
+
+.align-cent {
+    display: flex;
+    align-items: center
+}
+
+.typed_wrap h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.typed_wrap {
+    text-align: center;
+}
+
+.typed {
+    color: #2193b0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #ccc2c7;
+}
+
+.typed_wrap p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+    font-weight: bold
+}
+
+.typed_wrap p span+span {
+    font-weight: 800;
+    color: #2193b0;
+}
+
+img {
+    height:100%;
+}
+
+svg.shape {
+    margin: 20px auto;
+    width:60%;
+    height: auto;
+  }
+  
+  .svg-animate {
+      position: relative
+  }
+
+  .slider {
+      width: 30%;
+      position: absolute;
+      top: 30%;
+      left: 15%;
+  }
+  
+  @keyframes shape {
+    0% {
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    }
+    50% {
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    }
+    100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    }
+  }
+  
+  .shape {
+    -webkit-animation: shape 100s linear infinite both;
+    animation: shape 100s linear infinite both;
+  }
