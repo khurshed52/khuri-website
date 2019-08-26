@@ -10,7 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillComponent } from './skill/skill.component';
 import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    OwlModule
+    OwlModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     var options = {
-      strings: ["Gas Services 1", "Gas Services 2"],
+      strings: ["Front End Developer", "UI Developer", "Web Designer", "SharePoint Designer", "UI UX Expert"],
       typeSpeed: 100,
       loop: true
     }

@@ -1,6 +1,6 @@
 
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -72,6 +72,10 @@ nav {
   #hamburger .bar:after {
     bottom: 20px;
   }
+
+  .navRight a.is-active {
+    box-shadow: inset 0 6px 0 #e34f25;
+}
   
   @media only screen and (min-width: 861px) {
     #hamburger {

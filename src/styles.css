@@ -4,7 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
     line-height: 1.4em;
 }
 
@@ -43,4 +43,28 @@ button.owl-dot.active {
 
 .owl-carousel .owl-item img {
   width: 88% !important;
+}
+
+#bannerHead {
+  background: #de6262;
+  background: -webkit-linear-gradient(to right,#ffb88c,#de6262);
+  background: linear-gradient(to right,#ffb88c,#de6262);
+  position: relative;
+  min-height: 82px;
+  margin-top: 5em;
+}
+
+.bannerText {
+  background: #fff;
+  min-width: 400px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 64px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  color: #434343;
+  box-shadow: 0 0 5px #0000001f;
 }
