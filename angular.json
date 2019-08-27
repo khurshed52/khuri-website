@@ -36,7 +36,8 @@
                "./node_modules/jquery/dist/jquery.min.js",
                "./node_modules/bootstrap/dist/js/bootstrap.js",
                "./node_modules/owl.carousel/dist/owl.carousel.min.js",
-               "./node_modules/sal.js/dist/sal.js"
+               "./node_modules/sal.js/dist/sal.js",
+               "./node_modules/swup/dist/swup.min.js"
             ]
           },
           "configurations": {

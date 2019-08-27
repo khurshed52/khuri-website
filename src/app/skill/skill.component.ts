@@ -7,7 +7,6 @@ declare var sal:any
   styleUrls: ['./skill.component.css']
 })
 export class SkillComponent implements OnInit {
-  @Input() public parentData;
   skills:any;
   public skill:string = "Skills"
   constructor(private _skill: SkillsService) { }

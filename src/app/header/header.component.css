@@ -109,3 +109,10 @@ nav {
     }
   }
   
+.navRight a svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+  margin-right: 8px;
+}
+  
