@@ -16,7 +16,7 @@ nav {
   }
 
   .navLeft img {
-    width: 70%;
+    width: 60%;
 }
   
   .navRight {
@@ -42,10 +42,9 @@ nav {
   }
   
   #hamburger {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 10px 20px;
+    position: absolute;
+    top: 2px;
+    right: 19px;
     z-index: 100;
     width: 42px;
     height: 42px;
@@ -65,10 +64,10 @@ nav {
     background: #444;
   }
   #hamburger .bar:before {
-    top: 20px;
+    top: 30px;
   }
   #hamburger .bar:after {
-    bottom: 20px;
+    bottom: 30px;
   }
 
   .navRight a.is-active {
@@ -98,10 +97,11 @@ nav {
   
     .navRight {
       display: none;
+      background: #fff;
     }
     .navRight a {
       border-top: 2px solid #eee;
-      padding: 20px;
+      padding: 10px;
     }
     .navRight a:hover {
       box-shadow: none;

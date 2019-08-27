@@ -9,11 +9,11 @@
             </a>
         </div>
         <div class="navRight">
-            <a routerLink="/home" [routerLinkActive]="['is-active']"> Home </a>
-            <a routerLink="/about" [routerLinkActive]="['is-active']">About ME</a>
-            <a routerLink="/skills" [routerLinkActive]="['is-active']">My Skills</a>
-            <a routerLink="/works" [routerLinkActive]="['is-active']">My Works</a>
-            <a routerLink="/contact" [routerLinkActive]="['is-active']">Contact Me</a>
+            <a routerLink="/home" [routerLinkActive]="['is-active']" (click)="remove()"> Home </a>
+            <a routerLink="/about" [routerLinkActive]="['is-active']" (click)="remove()">About ME</a>
+            <a routerLink="/skills" [routerLinkActive]="['is-active']" (click)="remove()">My Skills</a>
+            <a routerLink="/works" [routerLinkActive]="['is-active']" (click)="remove()">My Works</a>
+            <a routerLink="/contact" [routerLinkActive]="['is-active']" (click)="remove()">Contact Me</a>
         </div>
     </nav>
 </header>

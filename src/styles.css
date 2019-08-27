@@ -70,4 +70,34 @@ button.owl-dot.active {
   font-weight: 700;
   color: #434343;
   box-shadow: 0 0 5px #0000001f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center
 }
+
+#content {
+  margin-top: 2em
+}
+
+@media screen and (max-width: 786px) {
+  .home-bg {
+    padding-top: 5em !important;
+  }
+  .navLeft img {
+    width: 30% !important;
+  }
+
+  .navLeft {
+    padding: 0px !important; 
+}
+
+.typed_wrap h1 {
+  font-size: 2em !important;
+}
+
+.skills-grid{
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+}
+
