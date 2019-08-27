@@ -5,7 +5,7 @@
 </section>
 <div class="skills-grid">
   <div class="skill-area" *ngFor="let skill of skills" >
-     <img src="{{skill.url}}" alt="{{skill.alt}}"/>
+      <img [defaultImage]="defaultImage" [lazyLoad]="skill.url" [offset]="offset" alt="{{skill.alt}}"/>
      <div class="tips">
        <span> {{skill.name}}</span>
        <em> {{skill.level}}</em>

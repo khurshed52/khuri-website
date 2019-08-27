@@ -22,4 +22,6 @@ export class SkillComponent implements OnInit {
     });
   }
 
+  defaultImage = 'https://cdn-images-1.medium.com/max/1600/1*9EBHIOzhE1XfMYoKz1JcsQ.gif';
+  offset = 100;
 }
