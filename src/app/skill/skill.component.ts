@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { SkillsService } from '../shared/skills.service';
 declare var sal:any
 @Component({
@@ -7,7 +7,9 @@ declare var sal:any
   styleUrls: ['./skill.component.css']
 })
 export class SkillComponent implements OnInit {
-  skills:any
+  @Input() public parentData;
+  skills:any;
+  public skill:string = "Skills"
   constructor(private _skill: SkillsService) { }
 
   ngOnInit() {

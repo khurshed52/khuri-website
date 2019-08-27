@@ -15,11 +15,9 @@ nav {
     align-items: center;
   }
 
-  .navLeft h1 {
-    font-weight: 400;
-    margin: 0;
-    font-size: 20px;
-  }
+  .navLeft img {
+    width: 70%;
+}
   
   .navRight {
     flex: 1;
