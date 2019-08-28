@@ -80,3 +80,27 @@ svg.shape {
     -webkit-animation: shape 100s linear infinite both;
     animation: shape 100s linear infinite both;
   }
+
+ 
+  .cv{
+    min-width: 15%;
+    background: -webkit-gradient(linear,left top,right top,from(#fa6630),to(#be155e));
+    background: -webkit-linear-gradient(left,#fa6630,#be155e);
+    background: -o-linear-gradient(left,#fa6630,#be155e);
+    background: linear-gradient(to right,#fa6630,#be155e);
+    margin-top:1em;
+    text-align:center;
+    padding: 20px;
+    color: #fff;
+    font-size: 2em;
+    border-radius: 10px 0px 0px 10px;
+    transition: all 0.5s ease-in-out
+  }
+
+a.cv:hover {
+     transition: all 0.5s ease-in-out;
+      text-decoration:none !important;
+    background: -webkit-linear-gradient(left,#be155e,#fa6630);
+    background: -o-linear-gradient(left,#be155e,#fa6630);
+    background: linear-gradient(to right,#be155e,#fa6630);
+  }
