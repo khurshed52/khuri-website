@@ -18,10 +18,10 @@
         "level": "70%"
     },
     {
-        "url": "assets/images/skills/jquery.gif",
-        "name": "Jquery",
-        "alt": "jquery",
-        "level": "70%"
+        "url": "assets/images/skills/bootstrap.png",
+        "name": "Bootstrap",
+        "alt": "bootstrap",
+        "level": "100%"
     },
     {
         "url": "assets/images/skills/angular.svg",
@@ -72,15 +72,15 @@
         "level": "90%"
     },
     {
-        "url": "assets/images/skills/bootstrap.png",
-        "name": "Bootstrap",
-        "alt": "bootstrap",
-        "level": "100%"
-    },
-    {
         "url": "assets/images/skills/github.png",
         "name": "Github",
         "alt": "github",
+        "level": "70%"
+    },
+    {
+        "url": "assets/images/skills/jquery.gif",
+        "name": "Jquery",
+        "alt": "jquery",
         "level": "70%"
     }
 ]

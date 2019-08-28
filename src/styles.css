@@ -82,6 +82,9 @@ button.owl-dot.active {
   font-weight: 700;
   color: #434343;
   box-shadow: 0 0 5px #0000001f;
+  -webkit-box-shadow: 0 0 5px #0000001f;
+  -moz-box-shadow: 0 0 5px #0000001f;
+  -ms-box-shadow: 0 0 5px #0000001f;
   display: flex;
   justify-content: space-around;
   align-items: center
@@ -121,3 +124,37 @@ button.owl-dot.active {
 
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .skills-grid .skill-area {
+    width: 16% !important;
+    float: left !important;
+}
+
+.project-grid {
+  width: 100%;
+}
+
+.project-grid .project-area {
+  width: 45%;
+  float: left;
+  margin-bottom: 25px !important
+}
+
+.project {
+  width: 100%;
+  display: inherit !important;
+  }
+
+  .project .project-link {
+    width: 45%;
+    float: left;
+    margin-right: 20px !important;
+}
+.align-cent {
+  margin-top: 100px;
+}
+
+.navLeft img {
+  width: 30% !important;
+}
+}
