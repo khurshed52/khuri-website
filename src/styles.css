@@ -11,6 +11,17 @@ body {
     line-height: 1.4em;
 }
 
+main {
+  flex: 1;
+  position: relative;
+}
+
+router-outlet ~ * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .owl-carousel {
     direction: ltr
 }
