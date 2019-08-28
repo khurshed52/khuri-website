@@ -1,0 +1,44 @@
+[
+    {
+        "imgUrl": "assets/images/projects/mbr.jpg",
+        "name": "MBR",
+        "alt": "mbr",
+        "built": "Built using Photoshop, HTML5, CSS3, .net",
+        "url":"https://www.mbrawards.ae/csa/pages/mbr/"
+    },
+    {
+        "imgUrl": "assets/images/projects/gas.jpg",
+        "name": "General Authority of Sports",
+        "alt": "gas",
+        "built": "Built using Photoshop, Node, Angular, Typescript, HTMl5, CSS3",
+        "url":"https://gas.gov.ae"
+    },
+    {
+        "imgUrl": "assets/images/projects/taekwondo.jpg",
+        "name": "taekwondo",
+        "alt": "taekwondo",
+        "built": "Built using Photoshop, HTML5, CSS3, .net",
+        "url":"http://mvisionit.com/Taekwondo_test/pages/home/"
+    },
+    {
+        "imgUrl": "assets/images/projects/moid.jpg",
+        "name": "MINISTRY OF INFRASTRUCTURE DEVELOPMENT",
+        "alt": "moid",
+        "built": "Built using Photoshop, Html5, CSS3, SharePoint",
+        "url":"https://www.moid.gov.ae/"
+    },
+    {
+        "imgUrl": "assets/images/projects/micro.jpg",
+        "name": "MICRO PRO COMPUTER LLC",
+        "alt": "micropro",
+        "built": "Built using Photoshop, Html5, CSS3",
+        "url":"http://micropro.ae/"
+    },
+    {
+        "imgUrl": "assets/images/projects/snagpad.jpg",
+        "name": "SNAGPAD",
+        "alt": "snagpad",
+        "built": "Built using Photoshop, Html5, CSS3, PHP",
+        "url":"http://micropro.ae/"
+    }
+]
