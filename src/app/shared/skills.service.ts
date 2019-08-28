@@ -7,8 +7,13 @@ export class SkillsService {
 
   constructor(private http: HttpClient) { }
   private url = '../../assets/data/skills.json';
+  private webUrl = '../../assets/data/website.json';
 
   getSkills() {
    return this.http.get(this.url);
+  }
+
+  getWebsite() {
+    return this.http.get(this.webUrl)
   }
 }

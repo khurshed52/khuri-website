@@ -110,5 +110,13 @@ button.owl-dot.active {
   grid-template-columns: repeat(3, 1fr) !important;
 }
 
+.project-grid{
+  grid-template-columns: repeat(1, 1fr) !important;
+}
+
+.project-details .buttons a {
+  width: 100% !important;
+}
+
 }
 

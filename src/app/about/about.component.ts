@@ -16,4 +16,8 @@ export class AboutComponent implements OnInit {
     });
   }
 
+  defaultImage = 'https://gas.gov.ae/assets/images/animated_spinner.gif';
+  aboutImage = '../../assets/images/about.svg';
+  offset = 100;
+
 }
