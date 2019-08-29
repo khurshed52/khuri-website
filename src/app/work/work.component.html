@@ -26,19 +26,19 @@
                 <div class="project-grid">
                         <div class="project-area" *ngFor="let intra of intranet"> 
                             <div class="project">
-                                <a class="venobox project-link vbox-item" [href]='intra.imgUrl'><img class="project-image" [defaultImage]="defaultImageIntra" [lazyLoad]="intra.imgUrl" [offset]="offsetIntra" alt="{{intra.alt}}"/></a>
+                                <a class="venobox project-link vbox-item" [href]='intra.imgUrl'><img class="project-image" [src]='intra.imgUrl' alt="{{intra.alt}}"/></a>
                                 <div class="project-details">
                                     <div class="project-tile">{{intra.name}}</div>
                                     <small>{{intra.built}}</small>
                                     <div class="buttons">
-                                        <a [href]='intra.url' target="_blank"> <i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                        <a class="venobox project-link vbox-item" [href]='intra.imgUrl'> <i class="fas fa-images"></i> view image</a>
                                     </div>
                                 </div>
                             </div>    
                         </div>
                     </div>
         </mat-tab>
-        <mat-tab label="Web Application"> Content 3 </mat-tab>
+        <mat-tab label="Web Application"> coming soon </mat-tab>
 </mat-tab-group>
 </section>
 

@@ -131,7 +131,7 @@ button.owl-dot.active {
     border-radius: 10px;
     display: inline-block;
     width: auto;
-    padding: 15px 30px 12px;
+    padding: 10px 20px 7px;
     font-weight: 400;
     background: rgb(33,177,207);
     background: linear-gradient(90deg, rgba(33,177,207,1) 0%, rgba(0,212,255,1) 100%);    
