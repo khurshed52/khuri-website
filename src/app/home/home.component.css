@@ -83,16 +83,16 @@ svg.shape {
 
  
   .cv{
-    min-width: 15%;
+    min-width: 12%;
     background: -webkit-gradient(linear,left top,right top,from(#fa6630),to(#be155e));
     background: -webkit-linear-gradient(left,#fa6630,#be155e);
     background: -o-linear-gradient(left,#fa6630,#be155e);
     background: linear-gradient(to right,#fa6630,#be155e);
     margin-top:1em;
     text-align:center;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.8em;
     border-radius: 10px 0px 0px 10px;
     transition: all 0.5s ease-in-out;
     margin-top: -10px;
