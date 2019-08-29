@@ -1,6 +1,6 @@
 .home-bg {
     position: relative;
-    min-height: 40vw;
+    min-height: 30vw;
     padding-top: 3vw;
     background: url('../../assets/images/home-bg.svg') no-repeat right top #fffffe;
     background-size: contain;
