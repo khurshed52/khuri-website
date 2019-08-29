@@ -1,0 +1,160 @@
+.not-found {
+    position: relative;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+  .st0 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #CAEBFB;
+  }
+  .st1 {
+    fill: #FFFFFF;
+    stroke: #caebfb;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st2 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #DBDFE1;
+  }
+  .st3 {
+    fill: #FFFFFF;
+  }
+  .st4 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #CAEBFB;
+    stroke: #89949B;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st5 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #FFFFFF;
+    stroke: #89949B;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st6 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #89949B;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st7 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #89949B;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st8 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #FFFFFF;
+    stroke: #89949B;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st9 {
+    fill: #89949B;
+  }
+  .st10 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #89949B;
+  }
+  .st11 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #89949B;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+
+.st12 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #FFFFFF;
+  }
+  .st13 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #FFFFFF;
+    stroke: #8894A0;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st14 {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: none;
+    stroke: #89949B;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .st15 {
+    fill: none;
+    stroke: #89949B;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  #cloud {
+    -webkit-animation: cloud 9s infinite ease-in-out;
+    -moz-animation: cloud 9s infinite ease-in-out;
+    -o-animation: cloud 9s infinite ease-in-out;
+    animation: cloud 9s infinite ease-in-out;
+  }
+
+  #cloud {
+	-webkit-animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+	        animation: slide-right 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+  }
+  

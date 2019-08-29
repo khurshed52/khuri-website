@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
     SkillComponent,
     WorkComponent,
     ContactComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
