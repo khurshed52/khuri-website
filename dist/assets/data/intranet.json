@@ -1,0 +1,16 @@
+[
+    {
+        "imgUrl": "assets/images/projects/mbr.jpg",
+        "name": "Intranet test",
+        "alt": "mbr",
+        "built": "Built using Photoshop, HTML5, CSS3, .net",
+        "url":"https://www.mbrawards.ae/csa/pages/mbr/"
+    },
+    {
+        "imgUrl": "assets/images/projects/gas.jpg",
+        "name": "Intranet test 1",
+        "alt": "gas",
+        "built": "Built using Photoshop, Node, Angular, Typescript, HTMl5, CSS3",
+        "url":"https://gas.gov.ae"
+    }
+]
