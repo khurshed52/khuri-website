@@ -1,16 +1,38 @@
 [
     {
-        "imgUrl": "assets/images/projects/mbr.jpg",
-        "name": "Intranet test",
-        "alt": "mbr",
-        "built": "Built using Photoshop, HTML5, CSS3, .net",
-        "url":"https://www.mbrawards.ae/csa/pages/mbr/"
+        "imgUrl": "assets/images/projects/portal/ajman-transport.jpg",
+        "name": "AJMAN TRANSPORT",
+        "alt": "AJMAN",
+        "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     },
     {
-        "imgUrl": "assets/images/projects/gas.jpg",
-        "name": "Intranet test 1",
-        "alt": "gas",
-        "built": "Built using Photoshop, Node, Angular, Typescript, HTMl5, CSS3",
-        "url":"https://gas.gov.ae"
+        "imgUrl": "assets/images/projects/portal/gmg.jpg",
+        "name": "GULF MARKETING GROUP",
+        "alt": "gmg",
+        "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
+    },
+    {
+        "imgUrl": "assets/images/projects/portal/al-hosn.jpg",
+        "name": "AL HOSN GAS",
+        "alt": "alhosn",
+        "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
+    },
+    {
+        "imgUrl": "assets/images/projects/portal/damac.jpg",
+        "name": "DAMAC PROPERTIES",
+        "alt": "damac",
+        "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
+    },
+    {
+        "imgUrl": "assets/images/projects/portal/emarat.jpg",
+        "name": "Emarat",
+        "alt": "emarat",
+        "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
+    },
+    {
+        "imgUrl": "assets/images/projects/portal/gt.jpg",
+        "name": "GULF TAINER",
+        "alt": "gulftainer",
+        "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     }
 ]
