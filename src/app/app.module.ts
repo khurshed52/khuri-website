@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     WorkComponent,
     ContactComponent,
     BreadcrumbComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

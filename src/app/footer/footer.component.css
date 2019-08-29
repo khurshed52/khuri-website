@@ -1,0 +1,35 @@
+#footer {
+    background: #e2e2e2;
+    padding: 1em !important;
+    position: fixed;
+    height: 45px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #434343;
+}
+
+.close-footer {
+position: absolute;
+top: -9px;
+right: 2px;
+background: #a7a7a7;
+width: 30px;
+height: 28px;
+text-align: center;
+padding: 10p;
+border-radius: 50%;
+line-height: 27px;
+color: #fff;
+cursor: pointer;
+}
