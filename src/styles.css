@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 html {
   font-family: 'Barlow Condensed', sans-serif !important;
@@ -166,6 +167,19 @@ button.owl-dot.active {
 
 .link--arrowed:hover .arrow-icon--circle {
     stroke-dashoffset: 0;
+}
+
+.mat-tab-group, .mat-tab-label {
+  font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.mat-tab-label {
+  opacity: 1 !important;
+  font-size: 21px;
+  font-weight: bold;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #229bb8 !important;
 }
 
 @media screen and (max-width: 786px) {

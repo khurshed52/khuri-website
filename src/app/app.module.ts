@@ -15,6 +15,8 @@ import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FooterComponent } from './footer/footer.component';
+import {MatTabsModule} from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +36,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     OwlModule,
     HttpClientModule,
+    MatTabsModule,
     LazyLoadImageModule
   ],
   providers: [],

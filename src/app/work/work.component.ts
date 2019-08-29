@@ -10,7 +10,8 @@ declare var $:any;
 })
 export class WorkComponent implements OnInit {
   public work:string = "My Works";
-  websites:any
+  websites:any;
+  intranet:any;
   constructor( private _work : SkillsService , private route : Router) { }
 
   ngOnInit() {
@@ -18,6 +19,11 @@ export class WorkComponent implements OnInit {
       website => {
         this.websites = website
       }
+    )
+    this._work.getIntranet().subscribe(
+     intra => {
+      this.intranet = intra
+     } 
     )
     sal({
       threshold: 1,
@@ -33,4 +39,8 @@ export class WorkComponent implements OnInit {
 
   defaultImage = 'https://gas.gov.ae/assets/images/animated_spinner.gif';
   offset = 100;
+
+  defaultImageIntra = 'https://gas.gov.ae/assets/images/animated_spinner.gif';
+  offsetIntra = 100;
+
 }
