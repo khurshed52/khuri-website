@@ -94,7 +94,10 @@ svg.shape {
     color: #fff;
     font-size: 2em;
     border-radius: 10px 0px 0px 10px;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
+    margin-top: -10px;
+    position:relative;
+    z-index: 1
   }
 
 a.cv:hover {
