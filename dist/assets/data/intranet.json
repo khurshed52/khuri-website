@@ -1,36 +1,36 @@
 [
     {
-        "imgUrl": "assets/images/projects/portal/ajman-transport.jpg",
+        "imgUrl": "https://project-images.netlify.com/projects//portal/ajman-transport.jpg",
         "name": "AJMAN TRANSPORT",
         "alt": "AJMAN",
         "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     },
     {
-        "imgUrl": "assets/images/projects/portal/gmg.jpg",
+        "imgUrl": "https://project-images.netlify.com/projects//portal/gmg.jpg",
         "name": "GULF MARKETING GROUP",
         "alt": "gmg",
         "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     },
     {
-        "imgUrl": "assets/images/projects/portal/al-hosn.jpg",
+        "imgUrl": "https://project-images.netlify.com/projects//portal/al-hosn.jpg",
         "name": "AL HOSN GAS",
         "alt": "alhosn",
         "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     },
     {
-        "imgUrl": "assets/images/projects/portal/damac.jpg",
+        "imgUrl": "https://project-images.netlify.com/projects//portal/damac.jpg",
         "name": "DAMAC PROPERTIES",
         "alt": "damac",
         "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     },
     {
-        "imgUrl": "assets/images/projects/portal/emarat.jpg",
+        "imgUrl": "https://project-images.netlify.com/projects//portal/emarat.jpg",
         "name": "Emarat",
         "alt": "emarat",
         "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
     },
     {
-        "imgUrl": "assets/images/projects/portal/gt.jpg",
+        "imgUrl": "https://project-images.netlify.com/projects//portal/gt.jpg",
         "name": "GULF TAINER",
         "alt": "gulftainer",
         "built": "Built in Photoshop, HTML5, CSS3, SharePoint"
