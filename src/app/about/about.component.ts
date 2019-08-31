@@ -6,7 +6,7 @@ declare var sal:any
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  public about:string = "About Me Test";
+  public about:string = "About Me";
   constructor() { }
 
   ngOnInit() {
