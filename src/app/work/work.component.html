@@ -38,7 +38,22 @@
                         </div>
                     </div>
         </mat-tab>
-        <mat-tab label="Web Application"> coming soon </mat-tab>
+        <mat-tab label="Web Application">
+            <div class="project-grid">
+                <div class="project-area" *ngFor="let webapp of webApps"> 
+                    <div class="project">
+                        <a class="venobox project-link vbox-item" [href]='webapp.imgUrl'><img class="project-image" [src]='webapp.imgUrl' alt="{{webapp.alt}}"/></a>
+                        <div class="project-details">
+                            <div class="project-tile">{{webapp.name}}</div>
+                            <small>{{webapp.built}}</small>
+                            <div class="buttons">
+                                <a class="venobox project-link vbox-item" [href]='webapp.imgUrl'> <i class="fas fa-images"></i> view image</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </mat-tab>
 </mat-tab-group>
 </section>
 

@@ -12,6 +12,7 @@ export class WorkComponent implements OnInit {
   public work:string = "My Works";
   websites:any;
   intranet:any;
+  webApps:any
   constructor( private _work : SkillsService , private route : Router) { }
 
   ngOnInit() {
@@ -25,6 +26,14 @@ export class WorkComponent implements OnInit {
       this.intranet = intra
      } 
     )
+
+    this._work.getWebApp().subscribe(
+      webApp => {
+        console.log(webApp);
+        this.webApps = webApp
+      }
+    )
+
     sal({
       threshold: 1,
       once: false,

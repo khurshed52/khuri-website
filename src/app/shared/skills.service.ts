@@ -9,6 +9,8 @@ export class SkillsService {
   private url = '../../assets/data/skills.json';
   private webUrl = '../../assets/data/website.json';
   private intraUrl = '../../assets/data/intranet.json';
+  private webAppUrl = '../../assets/data/web.json';
+
   getSkills() {
    return this.http.get(this.url);
   }
@@ -20,4 +22,9 @@ export class SkillsService {
   getIntranet() {
     return this.http.get(this.intraUrl);
   }
+
+  getWebApp() {
+    return this.http.get(this.webAppUrl);
+  }
+
 }
