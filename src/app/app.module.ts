@@ -16,6 +16,9 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { WebsiteComponent } from './work/website/website.component';
+import { IntranetComponent } from './work/intranet/intranet.component';
+import { WebAppComponent } from './work/web-app/web-app.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import {MatTabsModule} from '@angular/material/tabs';
     ContactComponent,
     BreadcrumbComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    WebsiteComponent,
+    IntranetComponent,
+    WebAppComponent
   ],
   imports: [
     BrowserModule,

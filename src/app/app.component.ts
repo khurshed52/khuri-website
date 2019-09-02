@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
       $('.venobox').venobox({
         titleattr: 'data-title'
       });
-    },5000)
+    },2000)
   }
   public getRouterOutletState(outlet) {
     return outlet.isActivated ? outlet.activatedRoute : '';

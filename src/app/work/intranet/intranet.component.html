@@ -1,0 +1,14 @@
+<div class="project-grid">
+  <div class="project-area" *ngFor="let intra of intranet"> 
+      <div class="project">
+          <a class="venobox project-link vbox-item" [href]='intra.imgUrl'><img class="project-image" [defaultImage]="defaultImage" [lazyLoad]="intra.imgUrl" [offset]="offset" alt="{{intra.alt}}"/></a>
+          <div class="project-details">
+              <div class="project-tile">{{intra.name}}</div>
+              <small>{{intra.built}}</small>
+              <div class="buttons">
+                  <a class="venobox project-link vbox-item" [href]='intra.imgUrl'> <i class="fas fa-images"></i> view image</a>
+              </div>
+          </div>
+      </div>    
+  </div>
+</div>

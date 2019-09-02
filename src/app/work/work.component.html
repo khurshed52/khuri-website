@@ -7,52 +7,13 @@
 <section id="content">
    <mat-tab-group>
         <mat-tab label="Website">
-                <div class="project-grid">
-                        <div class="project-area" *ngFor="let website of websites"> 
-                            <div class="project">
-                                <a class="venobox project-link vbox-item" [href]='website.imgUrl'><img class="project-image" [defaultImage]="defaultImage" [lazyLoad]="website.imgUrl" [offset]="offset" alt="{{website.alt}}"/></a>
-                                <div class="project-details">
-                                    <div class="project-tile">{{website.name}}</div>
-                                    <small>{{website.built}}</small>
-                                    <div class="buttons">
-                                        <a [href]='website.url' target="_blank"> <i class="fas fa-external-link-alt"></i> Live Demo</a>
-                                    </div>
-                                </div>
-                            </div>    
-                        </div>
-                    </div> 
+          <app-website> </app-website>
         </mat-tab>
         <mat-tab label="Intranet Portal">
-                <div class="project-grid">
-                        <div class="project-area" *ngFor="let intra of intranet"> 
-                            <div class="project">
-                                <a class="venobox project-link vbox-item" [href]='intra.imgUrl'><img class="project-image" [src]='intra.imgUrl' alt="{{intra.alt}}"/></a>
-                                <div class="project-details">
-                                    <div class="project-tile">{{intra.name}}</div>
-                                    <small>{{intra.built}}</small>
-                                    <div class="buttons">
-                                        <a class="venobox project-link vbox-item" [href]='intra.imgUrl'> <i class="fas fa-images"></i> view image</a>
-                                    </div>
-                                </div>
-                            </div>    
-                        </div>
-                    </div>
+              <app-intranet> </app-intranet>
         </mat-tab>
         <mat-tab label="Web Application">
-            <div class="project-grid">
-                <div class="project-area" *ngFor="let webapp of webApps"> 
-                    <div class="project">
-                        <a class="venobox project-link vbox-item" [href]='webapp.imgUrl'><img class="project-image" [src]='webapp.imgUrl' alt="{{webapp.alt}}"/></a>
-                        <div class="project-details">
-                            <div class="project-tile">{{webapp.name}}</div>
-                            <small>{{webapp.built}}</small>
-                            <div class="buttons">
-                                <a class="venobox project-link vbox-item" [href]='webapp.imgUrl'> <i class="fas fa-images"></i> view image</a>
-                            </div>
-                        </div>
-                    </div>    
-                </div>
-            </div>
+            <app-web-app></app-web-app>
         </mat-tab>
 </mat-tab-group>
 </section>

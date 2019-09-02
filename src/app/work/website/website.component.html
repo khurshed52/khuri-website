@@ -1,0 +1,14 @@
+<div class="project-grid">
+  <div class="project-area" *ngFor="let website of websites"> 
+      <div class="project">
+          <a id="firstlink" class="venobox project-link vbox-item" [attr.data-title]='website.name' [href]='website.imgUrl'><img class="project-image" [defaultImage]="defaultImage" [lazyLoad]="website.imgUrl" [offset]="offset" alt="{{website.alt}}"/></a>
+          <div class="project-details">
+              <div class="project-tile">{{website.name}}</div>
+              <small>{{website.built}}</small>
+              <div class="buttons">
+                  <a [href]='website.url' target="_blank"> <i class="fas fa-external-link-alt"></i> Live Demo</a>
+              </div>
+          </div>
+      </div>    
+  </div>
+</div> 
