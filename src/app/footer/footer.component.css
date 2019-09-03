@@ -1,5 +1,5 @@
 #footer {
-    background: #e2e2e2;
+    background: #c4e9fb;
     padding: 1em !important;
     position: fixed;
     height: 45px;
@@ -16,7 +16,7 @@
 }
 
 .footer p {
-    font-size: 14px;
+    font-size: 16px;
     color: #434343;
 }
 
@@ -33,4 +33,12 @@ border-radius: 50%;
 line-height: 27px;
 color: #fff;
 cursor: pointer;
+}
+
+
+.svg-shape {
+    width: 100%;
+    position: absolute;
+    bottom: 60.5%;
+    left: 0;
 }
