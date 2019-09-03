@@ -292,6 +292,22 @@ button.owl-dot.active {
   font-size: 2em !important;
 }
 
+.tips{
+  top: -11px !important;
+}
+
+.skill-area{
+  height: 139px !important;
+}
+
+.skill-area img{
+  height: 43px !important;
+}
+
+#bannerHead {
+  margin-top: 4em !important;
+}
+
 .typed_wrap p {
   font-size: 1.2em !important;
 }
