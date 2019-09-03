@@ -28,6 +28,7 @@
     "@nebular/theme": "^4.1.0",
     "@sweetalert2/ngx-sweetalert2": "^5.0.1",
     "@swimlane/ngx-datatable": "^14.0.0",
+    "balloon-css": "^1.0.3",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
