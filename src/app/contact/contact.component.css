@@ -1,0 +1,35 @@
+img {
+    width: 100%
+}
+
+i {
+    margin-right:10px;
+}
+
+.contact-left .item {
+    padding:10px;   
+    border-bottom: 1px dashed #434343;
+}
+
+.contact-left .item .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #434343;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-left .item p {
+    font-size:18px;
+    color: #434343;
+}
+
+.contact-left .item a {
+    font-size:18px;
+    color: #434343;
+}
+
+.map {
+    width: 100%;
+    margin-top: 1em
+}

@@ -7,6 +7,7 @@ declare var sal:any;
 })
 export class ContactComponent implements OnInit {
   public contact:string = "Contact Me";
+  public conImg = '../../assets/images/contact.svg';
   constructor() { }
 
   ngOnInit() {
