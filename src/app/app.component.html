@@ -1,9 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container-fluid">
   <app-header></app-header>
+  <div class="loader" *ngIf="loading">
+   <img src="assets/images/spinner.gif" alt="spinner"/>
+  </div>
   <main [@fadeAnimation]="getRouterOutletState(o)">
     <router-outlet #o="outlet"></router-outlet>
   </main>
   <app-footer></app-footer>
 </div>
-
