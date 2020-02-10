@@ -32,13 +32,13 @@
         "name": "MICRO PRO COMPUTER LLC",
         "alt": "micropro",
         "built": "Built using Photoshop, Html5, CSS3",
-        "url":"http://micropro.ae/"
+        "url":"https://micropro.ae/index.php"
     },
     {
         "imgUrl": "https://project-images.netlify.com/projects/snagpad.jpg",
         "name": "SNAGPAD",
         "alt": "snagpad",
         "built": "Built using Photoshop, Html5, CSS3, PHP",
-        "url":"http://micropro.ae/"
+        "url":"http://snagpad.com/"
     }
 ]
