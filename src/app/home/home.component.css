@@ -12,6 +12,12 @@
     align-items: center
 }
 
+.typed_wrap span svg {
+    width: 70px;
+    vertical-align: baseline;
+    margin: 0px 5px 0 5px;
+}
+
 .typed_wrap h1 {
     font-size: 3em;
     margin-bottom: 1em;
