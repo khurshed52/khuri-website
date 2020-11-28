@@ -19,6 +19,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { WebsiteComponent } from './work/website/website.component';
 import { IntranetComponent } from './work/intranet/intranet.component';
 import { WebAppComponent } from './work/web-app/web-app.component';
+import { ReactiveFormsModule } from '@angular/forms';  
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { WebAppComponent } from './work/web-app/web-app.component';
     OwlModule,
     HttpClientModule,
     MatTabsModule,
-    LazyLoadImageModule
+    LazyLoadImageModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
