@@ -359,3 +359,7 @@ button.owl-dot.active {
   width: 30% !important;
 }
 }
+
+.example-full-width  {
+  width: 100%;
+}

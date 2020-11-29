@@ -59,7 +59,7 @@
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.5.1",
     "sal.js": "^0.6.1",
-    "sweetalert2": "^8.8.7",
+    "sweetalert2": "^8.19.0",
     "swup": "^2.0.5",
     "tslib": "^1.9.0",
     "typed.js": "^2.0.10",

@@ -20,7 +20,11 @@ import { WebsiteComponent } from './work/website/website.component';
 import { IntranetComponent } from './work/intranet/intranet.component';
 import { WebAppComponent } from './work/web-app/web-app.component';
 import { ReactiveFormsModule } from '@angular/forms';  
-
+import {
+  MatFormFieldModule,
+  MatButtonModule,
+  MatInputModule
+} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +49,11 @@ import { ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     MatTabsModule,
     LazyLoadImageModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatButtonModule,
+    MatInputModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

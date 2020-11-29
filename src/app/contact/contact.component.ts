@@ -1,7 +1,9 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { ContactService } from '../shared/contact.service';
 declare var sal:any;
+declare var Swal:any;
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -12,7 +14,7 @@ export class ContactComponent implements OnInit {
   public conImg = '../../assets/images/contact.svg';
   FormData: FormGroup;
 
-  constructor(private builder: FormBuilder, private _contact: ContactService) {
+  constructor(private builder: FormBuilder, private _contact: ContactService, private router: Router) {
     this.FormData = this.builder.group({
       name: [],
       email: [],
@@ -34,7 +36,15 @@ export class ContactComponent implements OnInit {
         console.log(res)
       }
     );
-    this.FormData.reset()
+    this.FormData.reset();
+    Swal.fire({
+      type: 'success',
+      title: 'Thank you 😃',
+      text: 'Your message has been successfully sent. I will contact you very soon!',
+      timer: 2000,
+      position: 'top-end',
+    })
+    this.router.navigate(['/home'])
   }
 
 }
