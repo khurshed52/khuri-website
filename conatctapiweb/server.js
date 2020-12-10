@@ -7,7 +7,9 @@ app.use(cors());
 const port = process.env.PORT || 4000;
 require('dotenv').config()
 
-const db = process.env.mongo_Url;
+const routes = require('./routes/routes');
+
+const db = process.env.mongoURI;
 
 // promise 
 mongoose.Promise = global.Promise;
@@ -23,11 +25,9 @@ mongoose.connection
     console.log("Error is: ", error);
   });
   
-
 app.use(express.json());
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({extended: 'false'})); 
-const routes = require('./routes/routes');
 app.use(routes);
 
 
