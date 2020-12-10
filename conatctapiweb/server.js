@@ -9,7 +9,9 @@ require('dotenv').config()
 
 const routes = require('./routes/routes');
 
-const db = process.env.mongoURI;
+//const db = process.env.mongoURI;
+
+const db = "mongodb+srv://khurshed:UJbtVBah525eoUYy@khuri.vxt0r.mongodb.net/User?retryWrites=true&w=majority"
 
 // promise 
 mongoose.Promise = global.Promise;
