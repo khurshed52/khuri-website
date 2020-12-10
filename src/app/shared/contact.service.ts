@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ContactService {
-  private Url = 'https://conatctapiweb.herokuapp.com/contact'
+  private Url = 'https://contactwebapi.herokuapp.com/contact'
   constructor(private http: HttpClient) { }
 
   PostMessage(messages: any) {
