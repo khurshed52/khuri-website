@@ -9,8 +9,9 @@ const routes = require('./routes/routes');
 const cors = require('cors');
 app.use(cors());
 const port = process.env.PORT || 4000;
+require('dotenv').config()
 
-const db = 'mongodb+srv://khurshed:UJbtVBah525eoUYy@khuri.vxt0r.mongodb.net/User?retryWrites=true&w=majority';
+const db = process.env.mongo_Url;
 // promise 
 mongoose.Promise = global.Promise;
 
