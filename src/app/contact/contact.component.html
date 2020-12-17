@@ -6,17 +6,29 @@
       <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
         <mat-form-field appearance="outline" class="example-full-width">
           <mat-label>Name</mat-label>
-          <input matInput placeholder="Please enter your name" formControlName="name">
+          <input matInput placeholder="Please enter your name" formControlName="name" #name>
+           <mat-error *ngIf="FormData.controls['name'].hasError('required') && (FormData.controls['name'].dirty || FormData.controls['name'].touched)">
+            Name is required
+           </mat-error>
         </mat-form-field>
 
         <mat-form-field appearance="outline" class="example-full-width">
           <mat-label>Email</mat-label>
-          <input matInput placeholder="Please enter your email" formControlName="email">
+          <input matInput placeholder="Please enter your email" formControlName="email" #email>
+          <mat-error *ngIf="FormData.controls['email'].hasError('required') && (FormData.controls['email'].dirty || FormData.controls['email'].touched)">
+            Email is required
+           </mat-error>
+           <mat-error *ngIf="FormData.controls['email'].hasError('pattern') && (FormData.controls['email'].dirty || FormData.controls['email'].touched)">
+            Email is not valid
+           </mat-error>
         </mat-form-field>
 
         <mat-form-field appearance="outline" class="example-full-width">
           <mat-label>Comments</mat-label>
-          <textarea  matInput placeholder="Please enter your comments" formControlName="comments"> </textarea>
+          <textarea  matInput placeholder="Please enter your comments" formControlName="comments" #comments> </textarea>
+          <mat-error *ngIf="FormData.controls['comments'].hasError('required') && (FormData.controls['comments'].dirty || FormData.controls['comments'].touched)">
+            Comments is required
+           </mat-error>
         </mat-form-field>
 
       <button type="submit" class="w-100" mat-raised-button color="primary" [disabled]="FormData.pristine || FormData.invalid">Submit</button>
