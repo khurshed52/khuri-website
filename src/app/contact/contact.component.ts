@@ -1,6 +1,6 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ContactService } from '../shared/contact.service';
 declare var sal:any;
 declare var Swal:any;
@@ -13,16 +13,17 @@ export class ContactComponent implements OnInit {
   public contact:string = "Contact Me";
   public conImg = '../../assets/images/contact.svg';
   FormData: FormGroup;
-
+  emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
   constructor(private builder: FormBuilder, private _contact: ContactService, private router: Router) {
-    this.FormData = this.builder.group({
-      name: [],
-      email: [],
-      comments: [],
-    })
   }
 
   ngOnInit() {
+    this.FormData = this.builder.group({
+      name: ['', Validators.required],
+      email: ['',  [Validators.required, Validators.pattern(this.emailPattern)]],
+      comments: ['', Validators.required],
+    })
+
     sal({
       threshold: 1,
       once: false,
