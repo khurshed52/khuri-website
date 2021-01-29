@@ -1,8 +1,8 @@
 
-<section id="footer">
+<section id="footer" *ngIf="footer">
   <svg viewBox="0 0 1440 57" preserveAspectRatio="none" class="svg-shape"><path d="M1443.122 985.711c-65.517 6.847-139.307 3.395-199.835-10.167l-67.046-15.024c-80.444-18.027-178.681-18.027-259.124 0l-67.044 15.024c-80.443 18.025-178.686 18.025-259.126-.001l-67.035-15.022c-80.444-18.028-178.684-18.028-259.127-.001l-67.046 15.024C137.49 989.044 67.26 992.434 2 985.71V1004h1441.122c2.125-12.13 2.125-18.226 0-18.289z" fill="#c4e9fb" transform="translate(-3 -947)" fill-rule="evenodd"></path></svg>
   <div class="footer">
-    <div><p> Copyright ©2019 khurshed khan All Right Reserved</p></div>
+    <div><p> Copyright {{today}} khurshed khan All Right Reserved</p></div>
     <div><p>For Better User Experience use Chrome Browser </p> </div>
   </div>
   <div class="close-footer" (click)="hideFooter()">
