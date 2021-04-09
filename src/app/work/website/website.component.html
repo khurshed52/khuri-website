@@ -5,7 +5,7 @@
           <div class="project-details">
               <div class="project-tile">{{website.name}}</div>
               <small>{{website.built}}</small>
-              <div class="buttons">
+              <div class="buttons" *ngIf="website.demoBtn">
                   <a [href]='website.url' target="_blank"> <i class="fas fa-external-link-alt"></i> Live Demo</a>
               </div>
           </div>
