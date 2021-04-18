@@ -14,6 +14,7 @@ export class ContactComponent implements OnInit {
   public conImg = '../../assets/images/contact.svg';
   FormData: FormGroup;
   emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
+  public movie= [];
   constructor(private builder: FormBuilder, private _contact: ContactService, private router: Router) {
   }
 
@@ -28,6 +29,13 @@ export class ContactComponent implements OnInit {
       threshold: 1,
       once: false,
     });
+
+    this._contact.getMovie().subscribe(
+      (res)=> {
+        console.log(res);
+        this.movie = res
+      }
+    )
   }
 
   onSubmit(FormData: any){

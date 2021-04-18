@@ -14,10 +14,15 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(sessionStorage.getItem('remove-footer') === 'true') {
+      this.footer = false
+    }
+      
   }
 
-  hideFooter() {
+ public hideFooter() {
     // $('#footer').fadeOut();
       this.footer = false
+      sessionStorage.setItem( 'remove-footer', 'true');
   }
 }

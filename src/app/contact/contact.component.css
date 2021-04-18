@@ -33,3 +33,13 @@ i {
     width: 100%;
     margin-top: 1em
 }
+
+.poster {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.poster img {
+    margin: 10px;
+}
