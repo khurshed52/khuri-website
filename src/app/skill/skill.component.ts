@@ -12,17 +12,20 @@ export class SkillComponent implements OnInit {
   constructor(private _skill: SkillsService) { }
 
   ngOnInit() {
-    this._skill.getSkills().subscribe(
-      skill => {
-        this.skills = skill
-      }
-    )
+    this.getSkillsData();
     sal({
       threshold: 1,
       once: false,
     });
   }
 
+  getSkillsData() {
+    this._skill.getSkills().subscribe(
+      skill => {
+        this.skills = skill
+      }
+    )
+  }
   defaultImage = 'https://cdn-images-1.medium.com/max/1600/1*9EBHIOzhE1XfMYoKz1JcsQ.gif';
   offset = 100;
 }
