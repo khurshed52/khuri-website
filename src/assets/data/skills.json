@@ -24,6 +24,12 @@
         "level": "100%"
     },
     {
+        "url": "assets/images/skills/vue.svg",
+        "name": "Vue Js",
+        "alt": "vue",
+        "level": "90%"
+    },
+    {
         "url": "assets/images/skills/angular.svg",
         "name": "Angular",
         "alt": "angular",

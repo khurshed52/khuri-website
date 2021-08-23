@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
 
   mySlideImages = [
     { url:'../../assets/images/skills/angular.svg', alt: 'angular'},
+    { url:'../../assets/images/skills/vue.svg', alt: 'vue'},
     { url:'../../assets/images/skills/react.png', alt: 'react'},
     { url:'../../assets/images/skills/mean.png', alt: 'meanstack' },
     { url:'../../assets/images/skills/html5.svg', alt: 'html'},
