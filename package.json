@@ -42,7 +42,7 @@
     "jquery": "^3.4.1",
     "khuri-common-css": "^1.1.2",
     "lodash": "^4.17.15",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "mongodb-stitch-browser-sdk": "^4.4.1",
     "mongoose": "^5.5.3",
     "ng-lazyload-image": "^5.1.2",
