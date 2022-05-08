@@ -20,6 +20,9 @@ import { WebsiteComponent } from './work/website/website.component';
 import { IntranetComponent } from './work/intranet/intranet.component';
 import { WebAppComponent } from './work/web-app/web-app.component';
 import { ReactiveFormsModule } from '@angular/forms';  
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 import {
   MatFormFieldModule,
   MatButtonModule,
@@ -52,8 +55,9 @@ import {
     ReactiveFormsModule,
     MatFormFieldModule,
     MatButtonModule,
-    MatInputModule
-
+    MatInputModule,
+    MatButtonToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

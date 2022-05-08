@@ -1,7 +1,7 @@
 <app-breadcrumb [parentData]="contact"> </app-breadcrumb>
 <div id="content">
   <div class="row justify-content-around">
-    <div class="col-md-4 col-sm-4 col-12 col-xl-4 col-lg-5">
+    <div class="col-md-4 col-sm-4 col-12 col-xl-4 col-lg-5">  
       <!-- <img src="{{conImg}}" alt="contact"> -->
       <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
         <mat-form-field appearance="outline" class="example-full-width">
@@ -34,10 +34,9 @@
             Comments is required
           </mat-error>
         </mat-form-field>
-
         <button type="submit" class="w-100" mat-raised-button color="primary"
           [disabled]="FormData.pristine || FormData.invalid">Submit</button>
-      </form>
+      </form> 
 
       <!-- <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
         <div class="form-group">

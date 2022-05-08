@@ -2,19 +2,20 @@ import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ContactService } from '../shared/contact.service';
-declare var sal:any;
-declare var Swal:any;
+declare let sal:any;
+declare let Swal:any;
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  public contact:string = "Contact Me";
+  public contact = "Contact Me";
   public conImg = '../../assets/images/contact.svg';
   FormData: FormGroup;
   emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
   public movie= [];
+  loading: false;
   constructor(private builder: FormBuilder, private _contact: ContactService, private router: Router) {
   }
 
