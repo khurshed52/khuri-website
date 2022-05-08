@@ -39,7 +39,7 @@
     "express": "^4.16.4",
     "flexcarouseljs": "^0.2.1",
     "hammerjs": "^2.0.8",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "khuri-common-css": "^1.1.2",
     "lodash": "^4.17.15",
     "moment": "^2.29.1",
